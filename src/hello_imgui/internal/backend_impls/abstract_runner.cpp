@@ -685,7 +685,7 @@ void AbstractRunner::Setup()
     HelloImGuiIniSettings::LoadHelloImGuiMiscSettings(IniSettingsLocation(params), &params);
     SetLayoutResetIfNeeded();
 
-    ImGuiTheme::ApplyTweakedTheme(params.imGuiWindowParams.tweakedTheme);
+    //ImGuiTheme::ApplyTweakedTheme(params.imGuiWindowParams.tweakedTheme);
 
     // Fix issue with ImGui & Viewports: title bar cannot be transparent
     if (params.imGuiWindowParams.enableViewports)
